@@ -1,8 +1,0 @@
-Package Control.sublime-setting
--your packages
-- ~/.user/sublime-text-3/Installed Packages
-
-Preferences.sublime-settings 
--your user settings
-- ~/.user/sublime-text-3/Packages/User
-
