@@ -39,13 +39,15 @@ sudo apt-get install sublime-text-installer
 
 
 
-
-
-
-
-
 # dev stuffs
 # -----------------------------------------------
+# python dev
+# easy_install:
+sudo apt-get install python-setuptools
+# ipython:
+sudo easy_install ipython
+
+
 #javascript dev
 # npm:
 # sudo apt-get install npm
@@ -53,11 +55,7 @@ sudo apt-get install sublime-text-installer
 # npm install -g yo
 
 
-# python dev
-# easy_install:
-# sudo apt-get install python-setuptools
-# ipython:
-# sudo easy_install ipython
+
 
 # ruby dev ?
 # sudo apt-get install ruby
