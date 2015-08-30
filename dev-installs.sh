@@ -22,8 +22,8 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 
 # back up system files before messing with
 # add a date to file name at some point
-sudo cp .bash_profile .bash_profile.bkp
-sudo cp .bashrc .bashrc.bkp
+cp .bash_profile .bash_profile.bkp
+cp .bashrc .bashrc.bkp
 
 # add rvm source to both of them
 # may need to chown them if not working
