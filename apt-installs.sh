@@ -23,8 +23,8 @@ sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes install google-chrome-stable
 
 # mysql
-export DEBIAN_FRONTEND=noninteractive
-apt-get -q -y install mysql-server
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password '
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password '
 sudo apt-get -y --force-yes install mysql-server
 sudo apt-get -y --force-yes install mysql-client
 
