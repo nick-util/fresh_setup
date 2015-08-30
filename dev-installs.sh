@@ -27,8 +27,8 @@ cp .bashrc .bashrc.bkp
 
 # add rvm source to both of them
 # may need to chown them if not working
-sudo echo "source ~/.rvm/scripts/rvm" >> .bash_profile
-sudo echo "source ~/.rvm/scripts/rvm" >> .bashrc
+echo "source ~/.rvm/scripts/rvm" >> .bash_profile
+echo "source ~/.rvm/scripts/rvm" >> .bashrc
 
 
 
