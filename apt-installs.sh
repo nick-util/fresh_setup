@@ -5,6 +5,7 @@ sudo apt-get -y --force-yes autoremove
 
 # basic environment 
 # -------------------------------------------------
+sudo apt-get -y --force-yes install debconf-utils
 sudo apt-get -y --force-yes install git
 sudo apt-get -y --force-yes install git
 sudo apt-get -y --force-yes install curl
