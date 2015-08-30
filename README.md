@@ -12,5 +12,5 @@ curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/apt-install
 
 
 ```
-curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/apt-installs.sh | bash
+curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/dev-installs.sh | bash
 ```
