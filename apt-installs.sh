@@ -53,4 +53,4 @@ export DEBIAN_FRONTEND="noninteractive"
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password "
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password "
 sudo apt-get update
-sudo apt-get -y --force-yes install mysql-server
+sudo apt-get -q -y --force-yes install mysql-server
