@@ -27,7 +27,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 # add rvm source to both of them
 # may need to chown them if not working
 # echo "source ~/.rvm/scripts/rvm" >> .bash_profile
-# echo "source ~/.rvm/scripts/rvm" >> .bashrc
+echo "source ~/.rvm/scripts/rvm" >> .bashrc
 
 
 
