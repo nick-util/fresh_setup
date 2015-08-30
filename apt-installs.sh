@@ -11,6 +11,10 @@ sudo apt-get install htop
 sudo apt-get install vlc
 sudo apt-get install p7zip p7zip-rar
 sudo apt-get install gimp
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install libpq-dev
+
+
 
 # chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 

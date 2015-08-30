@@ -11,10 +11,7 @@ sudo apt-get install htop
 sudo apt-get install vlc
 sudo apt-get install p7zip p7zip-rar
 sudo apt-get install gimp
-
-# optional
-# sudo apt-get install blender
-# figure out utorrent @ some point
+sudo apt-get install libmysqlclient-dev
 
 
 # chrome
@@ -34,5 +31,9 @@ sudo apt-get install apache2
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
+
+# optional
+# sudo apt-get install blender
+# figure out utorrent @ some point
 
 
