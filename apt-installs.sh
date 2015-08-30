@@ -28,11 +28,7 @@ sudo apt-get -y --force-yes install google-chrome-stable
 sudo apt-get -y --force-yes install apache2
 
 # mysql
-# promptless install shows my linux derp
-# echo "mysql-server-5.6 mysql-server/root_password password " | sudo debconf-set-selections
-# echo "mysql-server-5.6 mysql-server/root_password_again password " | sudo debconf-set-selections
-# sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password "
-# sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password "
+# simple promptless install is filled with wat
 export DEBIAN_FRONTEND=noninteractive
 sudo -E apt-get -q -y --force-yes install mysql-server
 
