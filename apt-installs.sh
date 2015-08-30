@@ -40,4 +40,8 @@ sudo apt-get -y --force-yes install sublime-text-installer
 # sudo apt-get install blender
 # figure out utorrent @ some point
 
+# updates
+sudo apt-get -y --force-yes update
+sudo apt-get -y --force-yes upgrade
+sudo apt-get -y --force-yes autoremove
 
