@@ -51,6 +51,4 @@ sudo apt-get -y --force-yes autoremove
 export DEBIAN_FRONTEND="noninteractive"
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password "
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password "
-sudo apt-get -y --force-yes install mysql-client
-
-#sudo apt-get -y --force-yes install mysql-server
+sudo apt-get -y --force-yes install mysql-server
