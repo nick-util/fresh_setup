@@ -28,6 +28,15 @@ sudo apt-get -y --force-yes install google-chrome-stable
 # apache
 sudo apt-get -y --force-yes install apache2
 
+# mysql
+# promptless install shows my linux derp
+# echo "mysql-server-5.6 mysql-server/root_password password " | sudo debconf-set-selections
+# echo "mysql-server-5.6 mysql-server/root_password_again password " | sudo debconf-set-selections
+# sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password "
+# sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password "
+export DEBIAN_FRONTEND=noninteractive
+sudo -E apt-get -q -y --force-yes install mysql-server
+
 # sublime
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get -y --force-yes update
@@ -45,11 +54,4 @@ sudo apt-get -y --force-yes autoremove
 
 
 
-# mysql
-# I dont have time to figure out promptless install....
-# echo "mysql-server-5.6 mysql-server/root_password password " | sudo debconf-set-selections
-# echo "mysql-server-5.6 mysql-server/root_password_again password " | sudo debconf-set-selections
-export DEBIAN_FRONTEND=noninteractive
-sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password "
-sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password "
-sudo -E apt-get -q -y --force-yes install mysql-server
+
