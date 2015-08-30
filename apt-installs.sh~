@@ -12,6 +12,11 @@ sudo apt-get install vlc
 sudo apt-get install p7zip p7zip-rar
 sudo apt-get install gimp
 
+# optional
+# sudo apt-get install blender
+# figure out utorrent @ some point
+
+
 # chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
@@ -29,9 +34,5 @@ sudo apt-get install apache2
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
-
-# optional
-# sudo apt-get install blender
-# figure out utorrent @ some point
 
 
