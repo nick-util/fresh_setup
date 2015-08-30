@@ -6,6 +6,7 @@ sudo apt-get -y --force-yes autoremove
 # basic environment 
 # -------------------------------------------------
 sudo apt-get -y --force-yes install git
+sudo apt-get -y --force-yes install git
 sudo apt-get -y --force-yes install curl
 sudo apt-get -y --force-yes install htop
 sudo apt-get -y --force-yes install vlc
