@@ -49,7 +49,7 @@ sudo apt-get -y --force-yes autoremove
 # I dont have time to figure out promptless install....
 # echo "mysql-server-5.6 mysql-server/root_password password " | sudo debconf-set-selections
 # echo "mysql-server-5.6 mysql-server/root_password_again password " | sudo debconf-set-selections
-export DEBIAN_FRONTEND="noninteractive"
+export DEBIAN_FRONTEND=noninteractive
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password "
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password "
 sudo apt-get update
