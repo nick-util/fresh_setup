@@ -7,7 +7,6 @@ mkdir ~/dev
 # python dev
 #easy_install:
 sudo apt-get install python-setuptools
-# ipython:
 sudo easy_install ipython
 
 
@@ -22,13 +21,13 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 
 # back up system files before messing with
 # add a date to file name at some point
-cp .bash_profile .bash_profile.bkp
-cp .bashrc .bashrc.bkp
+# cp .bash_profile .bash_profile.bkp
+# cp .bashrc .bashrc.bkp
 
 # add rvm source to both of them
 # may need to chown them if not working
-echo "source ~/.rvm/scripts/rvm" >> .bash_profile
-echo "source ~/.rvm/scripts/rvm" >> .bashrc
+# echo "source ~/.rvm/scripts/rvm" >> .bash_profile
+# echo "source ~/.rvm/scripts/rvm" >> .bashrc
 
 
 
@@ -48,9 +47,9 @@ echo "source ~/.rvm/scripts/rvm" >> .bashrc
 # gems
 # ----------------------------
 # openshift command line tools
-# gem install rhc
+ gem install rhc
 #passenger 
-# gem install passenger
+ gem install passenger
 
 
 
