@@ -9,3 +9,8 @@ This is only tested on Ubuntu(v15) but theoretically will work on other debian s
 ``` 
 curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/apt-installs.sh | bash
 ```
+
+
+```
+curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/apt-installs.sh | bash
+```
