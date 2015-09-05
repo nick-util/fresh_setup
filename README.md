@@ -18,5 +18,5 @@ curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/dev-install
 
 
 ## To Do
-* add wine support
+* add wine to the list
 * convert to docker 
