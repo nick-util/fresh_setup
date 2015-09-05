@@ -14,3 +14,9 @@ curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/apt-install
 ```
 curl https://raw.githubusercontent.com/nkiermaier/fresh-setup/master/dev-installs.sh | bash
 ```
+
+
+
+## To Do
+* add wine support
+* convert to docker 
