@@ -3,7 +3,6 @@
 
     * nicksite.conf
 
-    *  
     ```
     <VirtualHost *:80>
         ServerName nicksite.dev
