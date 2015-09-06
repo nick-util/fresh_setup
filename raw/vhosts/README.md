@@ -1,3 +1,9 @@
+1. Copy this to /etc/apache2
+
+
+* nicksite.conf
+
+```
 <VirtualHost *:80>
     ServerName nicksite.dev
 
@@ -16,3 +22,8 @@
     </Directory>
     
 </VirtualHost>
+```
+
+
+2. enable in apache2: ``` sudo a2ensite nicksite.conf ```
+3. restart apache2:  ``` sudo service apache2 restart ```
