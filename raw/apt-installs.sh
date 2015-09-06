@@ -16,6 +16,12 @@ sudo apt-get -y --force-yes install libmysqlclient-dev
 sudo apt-get -y --force-yes install libpq-dev
 
 
+# dependencies for phusion passenger apache module
+sudo apt-get -y --force-yes install libcurl4-openssl-dev # or libcurl4-gnutls-dev
+sudo apt-get -y --force-yes install apache2-threaded-dev
+sudo apt-get -y --force-yes install libapr1-dev
+sudo apt-get -y --force-yes install libaprutil1-dev
+
 
 # chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
