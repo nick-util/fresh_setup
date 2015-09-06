@@ -8,6 +8,7 @@
     * modules go into: /etc/apache2/mods-available/passenger.conf
     * sudo a2enmod passenger.conf
     * sudo service apache2 restart
+    * check modules installed: ``` apache2ctl -M ```
     * example of passenger module output:
     ```
     LoadModule passenger_module /home/nick/.rvm/gems/ruby-2.2.1/gems/passenger-5.0.16/buildout/apache2/mod_passenger.so
@@ -16,5 +17,7 @@
          PassengerDefaultRuby /home/nick/.rvm/gems/ruby-2.2.1/wrappers/ruby
        </IfModule>
     ```
+    
+    
 
 
