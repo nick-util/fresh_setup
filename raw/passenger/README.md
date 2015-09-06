@@ -1,7 +1,7 @@
 # Passenger install
 
 
-1. gem install passenger
+1. ``` gem install passenger ```
 
 2. Copy the given info passenger gives you into various locations.
   1. Module:
