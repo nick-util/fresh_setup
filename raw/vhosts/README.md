@@ -27,3 +27,4 @@
 
 2. enable in apache2: ``` sudo a2ensite nicksite.conf ```
 3. restart apache2:  ``` sudo service apache2 restart ```
+4. edit /etc/hosts file:  ``` 127.0.0.1       nicksite.dev ```
