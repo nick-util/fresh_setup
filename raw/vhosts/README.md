@@ -12,7 +12,9 @@
         
         # location of my ruby install
         PassengerRuby /home/nick/.rvm/rubies/ruby-2.2.1/bin/ruby
-    
+        PassengerFriendlyErrorPages on
+        RailsEnv development
+        
         # Relax Apache security settings
         <Directory /path-to-your-app/public>
           Allow from all
