@@ -30,7 +30,8 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 echo "source ~/.rvm/scripts/rvm" >> .bashrc
 
 
-
+# more rails support - js runtime
+sudo apt-get install nodejs
 
 
 #javascript dev
