@@ -14,7 +14,8 @@ sudo apt-get -y --force-yes install p7zip p7zip-rar
 sudo apt-get -y --force-yes install gimp
 sudo apt-get -y --force-yes install libmysqlclient-dev
 sudo apt-get -y --force-yes install libpq-dev
-
+sudo apt-get -y --force-yes install libxml2-dev
+sudo apt-get -y --force-yes install libxslt-dev
 
 # dependencies for phusion passenger apache module
 sudo apt-get -y --force-yes install libcurl4-openssl-dev # or libcurl4-gnutls-dev
